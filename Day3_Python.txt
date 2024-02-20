@@ -1,0 +1,20 @@
+---> Why indexing starts with 0?
+     Let us take an example,
+     Let the memory block and the elements in it be [t,e,l,u,g,u]
+     t is at a distance of 0 from memory block; e is at a distance of 1 from memory block; and so on.
+     This is called Offside Distance.
+     Thats why indexing starts from 0.
+
+
+----> Static vs Dynamic Array / Lists :
+      C and C++ have Statc lists and arrays, but Python has Dynamic arrays and lists.
+      In Static, the array/list size is fixed and it has to be declared; but in Dynamic array/list the        array/list size need not be declared.
+
+
+----> How dynamic allocation works :
+      Let us take an example,
+      If we write nums=[1],
+      Outside, the length of the list is 1, but inside, the memory creates place for 2 values.
+      If we then add another item to the list, then it becomes, nums=[1,2]
+      Here, outside, the length of the list is 2, but inside, the memory creates place for 4 values; and it will allocate the memory in another location/place.
+      
